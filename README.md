@@ -59,3 +59,7 @@ Next, we'll dive in to Angular more deeply by creating a component to display th
 ### Chapter 4 - Displaying realtime statistics
 
 Now that we've got the tweets showing, we want to start to display charts and stats about the Twitter stream. We'll learn how to use D3 through the NgxCharts library, and see how data aggregations gives us interesting insights.
+
+### Chapter 5 - Changing the term with voice
+
+The last step is to allow the UI to change the term, which we'll allow the user to type a new term or optionally speak it. This will call the server to restart the stream with the new term and the UI will reflect this new data.
