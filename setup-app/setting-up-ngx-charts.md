@@ -24,6 +24,7 @@ imports: [
   BrowserAnimationsModule,
   ClarityModule.forRoot(),
   AngularFireModule.initializeApp(environment.config),
+  AngularFireDatabaseModule,
   NgxChartsModule,
 ],
 ```

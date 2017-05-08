@@ -48,7 +48,7 @@ export class TimeComponent implements OnChanges {
 
 We want to use a different chart type here, so we'll create a line chart since this data is linear and over time. This chart component has more options, so many of them are turned on to make the chart appear as we wish.
 
-Open up `src/app/stats/stats.component.html` and replace its contents with the following.
+Open up `src/app/time/time.component.html` and replace its contents with the following.
 
 ```html
 <ngx-charts-line-chart
